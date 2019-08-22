@@ -3,8 +3,8 @@ package com.gedgonz.bookapi.Model;
 public class Autor {
 
     public int id;
-    public String Nombre;
-    public String Apellido;
+    public String nombre;
+    public String apellido;
 
     public int getId() {
         return id;
@@ -15,18 +15,19 @@ public class Autor {
     }
 
     public String getNombre() {
-        return Nombre;
+        return nombre;
     }
 
     public void setNombre(String nombre) {
-        Nombre = nombre;
+        this.nombre = nombre;
     }
 
     public String getApellido() {
-        return Apellido;
+        return apellido;
     }
 
     public void setApellido(String apellido) {
-        Apellido = apellido;
+        this.apellido = apellido;
     }
 }
+

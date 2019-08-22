@@ -7,8 +7,8 @@ public class Libro {
     public String titulo;
     public String descripcion;
     public String fecha;
-    //public Autor Autor;
-
+    public String portada;
+    public Autor autor;
 
     public int getId() {
         return id;
@@ -40,5 +40,21 @@ public class Libro {
 
     public void setFecha(String fecha) {
         this.fecha = fecha;
+    }
+
+    public String getPortada() {
+        return portada;
+    }
+
+    public void setPortada(String portada) {
+        this.portada = portada;
+    }
+
+    public Autor getAutor() {
+        return autor;
+    }
+
+    public void setAutor(Autor autor) {
+        this.autor = autor;
     }
 }
